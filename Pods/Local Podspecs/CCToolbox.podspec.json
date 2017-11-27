@@ -1,0 +1,22 @@
+{
+  "name": "CCToolbox",
+  "version": "0.8.3",
+  "summary": "A short description of CCToolbox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.ehealthinnovation.org/PHIT/CCToolbox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kevin Tallevi": "ktallevi@ehealthinnovation.org"
+  },
+  "source": {
+    "git": "https://github.ehealthinnovation.org/PHIT/CCToolbox.git",
+    "tag": "0.8.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCToolbox/Classes/**/*"
+}

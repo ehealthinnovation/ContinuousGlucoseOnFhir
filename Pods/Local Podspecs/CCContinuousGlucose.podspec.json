@@ -1,0 +1,30 @@
+{
+  "name": "CCContinuousGlucose",
+  "version": "0.1.0",
+  "summary": "A short description of CCContinuousGlucose.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.ehealthinnovation.org/PHIT/CCContinuousGlucose",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ktallevi": "ktallevi@ehealthinnovation.org"
+  },
+  "source": {
+    "git": "https://github.ehealthinnovation.org/PHIT/CCContinuousGlucose.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCContinuousGlucose/Classes/**/*",
+  "dependencies": {
+    "CCBluetooth": [
+
+    ],
+    "CCToolbox": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module CCContinuousGlucose {
+  umbrella header "CCContinuousGlucose-umbrella.h"
+
+  export *
+  module * { export * }
+}

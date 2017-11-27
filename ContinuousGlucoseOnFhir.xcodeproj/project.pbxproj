@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3485E245F73F5FC3127533 /* Pods_ContinuousGlucoseOnFhir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2640C5377AF7972BCA0B3933 /* Pods_ContinuousGlucoseOnFhir.framework */; };
 		506EA2741FC8B44500130CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EA2731FC8B44500130CD4 /* AppDelegate.swift */; };
-		506EA2761FC8B44500130CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EA2751FC8B44500130CD4 /* ViewController.swift */; };
 		506EA2791FC8B44500130CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506EA2771FC8B44500130CD4 /* Main.storyboard */; };
 		506EA27B1FC8B44500130CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506EA27A1FC8B44500130CD4 /* Assets.xcassets */; };
 		506EA27E1FC8B44500130CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506EA27C1FC8B44500130CD4 /* LaunchScreen.storyboard */; };
+		50834F351FCC893100A57464 /* MeasurementDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50834F311FCC893000A57464 /* MeasurementDetailsViewController.swift */; };
+		50834F361FCC893100A57464 /* DiscoverCGMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50834F321FCC893100A57464 /* DiscoverCGMViewController.swift */; };
+		50834F371FCC893100A57464 /* CGMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50834F331FCC893100A57464 /* CGMViewController.swift */; };
+		50834F381FCC893100A57464 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50834F341FCC893100A57464 /* ChartViewController.swift */; };
+		50FAB7911FCC73EF00422F14 /* CGMFhir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAB78F1FCC73EF00422F14 /* CGMFhir.swift */; };
+		50FAB7921FCC73EF00422F14 /* FHIR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAB7901FCC73EF00422F14 /* FHIR.swift */; };
+		50FAB7971FCC741D00422F14 /* ContinuousGlucoseMeasurement+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAB7961FCC741D00422F14 /* ContinuousGlucoseMeasurement+Extension.swift */; };
+		50FAB79A1FCC743D00422F14 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAB7981FCC743D00422F14 /* PatientViewController.swift */; };
+		50FAB79B1FCC743D00422F14 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAB7991FCC743D00422F14 /* DeviceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2640C5377AF7972BCA0B3933 /* Pods_ContinuousGlucoseOnFhir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContinuousGlucoseOnFhir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B158DD4326613A5F98BB30F /* Pods-ContinuousGlucoseOnFhir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContinuousGlucoseOnFhir.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContinuousGlucoseOnFhir/Pods-ContinuousGlucoseOnFhir.release.xcconfig"; sourceTree = "<group>"; };
 		506EA2701FC8B44500130CD4 /* ContinuousGlucoseOnFhir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuousGlucoseOnFhir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506EA2731FC8B44500130CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		506EA2751FC8B44500130CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		506EA2781FC8B44500130CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		506EA27A1FC8B44500130CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506EA27D1FC8B44500130CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506EA27F1FC8B44500130CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50834F311FCC893000A57464 /* MeasurementDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementDetailsViewController.swift; sourceTree = "<group>"; };
+		50834F321FCC893100A57464 /* DiscoverCGMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCGMViewController.swift; sourceTree = "<group>"; };
+		50834F331FCC893100A57464 /* CGMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMViewController.swift; sourceTree = "<group>"; };
+		50834F341FCC893100A57464 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		50FAB78F1FCC73EF00422F14 /* CGMFhir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMFhir.swift; sourceTree = "<group>"; };
+		50FAB7901FCC73EF00422F14 /* FHIR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHIR.swift; sourceTree = "<group>"; };
+		50FAB7961FCC741D00422F14 /* ContinuousGlucoseMeasurement+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContinuousGlucoseMeasurement+Extension.swift"; sourceTree = "<group>"; };
+		50FAB7981FCC743D00422F14 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		50FAB7991FCC743D00422F14 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		7988C50A8CC441A8238DAD3A /* Pods-ContinuousGlucoseOnFhir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContinuousGlucoseOnFhir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContinuousGlucoseOnFhir/Pods-ContinuousGlucoseOnFhir.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3485E245F73F5FC3127533 /* Pods_ContinuousGlucoseOnFhir.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				506EA2721FC8B44500130CD4 /* ContinuousGlucoseOnFhir */,
 				506EA2711FC8B44500130CD4 /* Products */,
+				AF2DF50D38854DB49CAB6C40 /* Pods */,
+				66CCF0BC396DC1CC04465C24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,63 @@
 		506EA2721FC8B44500130CD4 /* ContinuousGlucoseOnFhir */ = {
 			isa = PBXGroup;
 			children = (
+				50FAB79C1FCC743F00422F14 /* View Controllers */,
+				50FAB7951FCC741600422F14 /* Extension */,
+				50FAB7931FCC73F500422F14 /* FHIR */,
 				506EA2731FC8B44500130CD4 /* AppDelegate.swift */,
-				506EA2751FC8B44500130CD4 /* ViewController.swift */,
 				506EA2771FC8B44500130CD4 /* Main.storyboard */,
 				506EA27A1FC8B44500130CD4 /* Assets.xcassets */,
 				506EA27C1FC8B44500130CD4 /* LaunchScreen.storyboard */,
 				506EA27F1FC8B44500130CD4 /* Info.plist */,
 			);
 			path = ContinuousGlucoseOnFhir;
+			sourceTree = "<group>";
+		};
+		50FAB7931FCC73F500422F14 /* FHIR */ = {
+			isa = PBXGroup;
+			children = (
+				50FAB78F1FCC73EF00422F14 /* CGMFhir.swift */,
+				50FAB7901FCC73EF00422F14 /* FHIR.swift */,
+			);
+			name = FHIR;
+			sourceTree = "<group>";
+		};
+		50FAB7951FCC741600422F14 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				50FAB7961FCC741D00422F14 /* ContinuousGlucoseMeasurement+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		50FAB79C1FCC743F00422F14 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50834F331FCC893100A57464 /* CGMViewController.swift */,
+				50834F341FCC893100A57464 /* ChartViewController.swift */,
+				50834F321FCC893100A57464 /* DiscoverCGMViewController.swift */,
+				50834F311FCC893000A57464 /* MeasurementDetailsViewController.swift */,
+				50FAB7991FCC743D00422F14 /* DeviceViewController.swift */,
+				50FAB7981FCC743D00422F14 /* PatientViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		66CCF0BC396DC1CC04465C24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2640C5377AF7972BCA0B3933 /* Pods_ContinuousGlucoseOnFhir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF2DF50D38854DB49CAB6C40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7988C50A8CC441A8238DAD3A /* Pods-ContinuousGlucoseOnFhir.debug.xcconfig */,
+				2B158DD4326613A5F98BB30F /* Pods-ContinuousGlucoseOnFhir.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 506EA2821FC8B44500130CD4 /* Build configuration list for PBXNativeTarget "ContinuousGlucoseOnFhir" */;
 			buildPhases = (
+				37C5D8070F53279A7BC6283D /* [CP] Check Pods Manifest.lock */,
 				506EA26C1FC8B44500130CD4 /* Sources */,
 				506EA26D1FC8B44500130CD4 /* Frameworks */,
 				506EA26E1FC8B44500130CD4 /* Resources */,
+				3F53C8CA82CA56C5477E939D /* [CP] Embed Pods Frameworks */,
+				39F63BC8F049F23500C059BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +206,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37C5D8070F53279A7BC6283D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContinuousGlucoseOnFhir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F63BC8F049F23500C059BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContinuousGlucoseOnFhir/Pods-ContinuousGlucoseOnFhir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F53C8CA82CA56C5477E939D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ContinuousGlucoseOnFhir/Pods-ContinuousGlucoseOnFhir-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CCBluetooth/CCBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/CCContinuousGlucose/CCContinuousGlucose.framework",
+				"${BUILT_PRODUCTS_DIR}/CCToolbox/CCToolbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SMART/SMART.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCContinuousGlucose.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCToolbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMART.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContinuousGlucoseOnFhir/Pods-ContinuousGlucoseOnFhir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		506EA26C1FC8B44500130CD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506EA2761FC8B44500130CD4 /* ViewController.swift in Sources */,
+				50FAB7911FCC73EF00422F14 /* CGMFhir.swift in Sources */,
+				50FAB79B1FCC743D00422F14 /* DeviceViewController.swift in Sources */,
+				50834F371FCC893100A57464 /* CGMViewController.swift in Sources */,
+				50FAB79A1FCC743D00422F14 /* PatientViewController.swift in Sources */,
+				50834F351FCC893100A57464 /* MeasurementDetailsViewController.swift in Sources */,
+				50FAB7921FCC73EF00422F14 /* FHIR.swift in Sources */,
+				50FAB7971FCC741D00422F14 /* ContinuousGlucoseMeasurement+Extension.swift in Sources */,
+				50834F361FCC893100A57464 /* DiscoverCGMViewController.swift in Sources */,
 				506EA2741FC8B44500130CD4 /* AppDelegate.swift in Sources */,
+				50834F381FCC893100A57464 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +417,13 @@
 		};
 		506EA2831FC8B44500130CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7988C50A8CC441A8238DAD3A /* Pods-ContinuousGlucoseOnFhir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F663BTMH9Q;
 				INFOPLIST_FILE = ContinuousGlucoseOnFhir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ehealthinnovation.ContinuousGlucoseOnFhir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +434,13 @@
 		};
 		506EA2841FC8B44500130CD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B158DD4326613A5F98BB30F /* Pods-ContinuousGlucoseOnFhir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F663BTMH9Q;
 				INFOPLIST_FILE = ContinuousGlucoseOnFhir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ehealthinnovation.ContinuousGlucoseOnFhir;
 				PRODUCT_NAME = "$(TARGET_NAME)";

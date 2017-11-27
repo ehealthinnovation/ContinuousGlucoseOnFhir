@@ -1,0 +1,27 @@
+{
+  "name": "CCBluetooth",
+  "version": "0.5.8",
+  "summary": "A short description of CCBluetooth.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.ehealthinnovation.org/PHIT/CCBluetooth",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kevin Tallevi": "ktallevi@ehealthinnovation.org"
+  },
+  "source": {
+    "git": "https://github.ehealthinnovation.org/PHIT/CCBluetooth.git",
+    "tag": "0.5.8"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCBluetooth/Classes/**/*",
+  "dependencies": {
+    "CCToolbox": [
+
+    ]
+  }
+}

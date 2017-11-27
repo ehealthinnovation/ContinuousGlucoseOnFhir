@@ -1,0 +1,6 @@
+framework module CCToolbox {
+  umbrella header "CCToolbox-umbrella.h"
+
+  export *
+  module * { export * }
+}
