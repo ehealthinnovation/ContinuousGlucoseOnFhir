@@ -149,6 +149,7 @@
 				506EA26E1FC8B44500130CD4 /* Resources */,
 				3F53C8CA82CA56C5477E939D /* [CP] Embed Pods Frameworks */,
 				39F63BC8F049F23500C059BD /* [CP] Copy Pods Resources */,
+				509851BD1FCCBA4700F10606 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -265,6 +266,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContinuousGlucoseOnFhir/Pods-ContinuousGlucoseOnFhir-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		509851BD1FCCBA4700F10606 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftlint lint --path ContinuousGlucoseOnFhir --config .swiftlint.yaml";
 		};
 /* End PBXShellScriptBuildPhase section */
 
